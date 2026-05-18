@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../node_modules/lightbox2/dist/css/lightbox.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <section>
+    <h3>Two Individual Images</h3>
+    <script>
+        let cloudName = process.env.REACT_APP_CLOUDINARY_CLOUD_NAME || "demo";
+        let publicId = "v1769040508/IMG_5272_v1ov90"
+        let link = "https://res.cloudinary.com/${cloudName}/image/upload/c_fill,w_500,h_375/${publicId}.jpg"
+    </script>
+
+    <h3>A Four Image Set</h3>
+    <div>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Graduation Photos 1"><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg" data-lightbox="example-set" data-title="Graduation Photos 2"><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg" alt="" /></a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg" alt="" /></a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-6.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-6.jpg" alt="" /></a>
+    </div>
+  </section>
+
+  <script src="../node_modules/lightbox2/src/js/lightbox.js"></script>
+
+</body>
+</html>
