@@ -19,7 +19,7 @@ export default function Graduation(){
     lightboxGroup: "graduation-gallery"
   }));
   return (
-    <div className="min-h-screen bg-white flex flex-col items-left pt-32">
+    <div className="min-h-screen bg-white flex flex-col items-left pt-48">
       <div className="pt-24 w-full flex flex-col items-center">
         <h1 className="text-4xl font-semibold mb-8 text-gray-900">Graduation</h1>
         <ImageGallery images={images} />

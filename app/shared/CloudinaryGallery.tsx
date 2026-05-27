@@ -9,12 +9,11 @@ export const folderImages: Record<string, captionImage[]> = {
   graduation: [
     {caption: "samantha", publicId: "v1769728429/IMG_0194_h9mmpc"},
     {caption: "jennifer", publicId: "v1769040508/IMG_5272_v1ov90"},
-    {caption: "jennifer", publicId: "v1769727517/IMG_5356_n4ckdk"}
 
   ],
   events: [
     {caption: "beautiful", publicId: "v1769040508/IMG_5272_v1ov90"},
-    {caption: "john", publicId: "v1769040508/IMG_5272_v1ov90"}
+    {caption: "john", publicId: "v1769727518/IMG_5374_vyklf8"}
   ],
   portraits: [
     {caption: "family", publicId: "v1769040508/IMG_5272_v1ov90"},
