@@ -11,7 +11,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "NAME Photography Portfolio",
+  title: "By Dishita",
   description: "Bay Area Photographer",
 };
 

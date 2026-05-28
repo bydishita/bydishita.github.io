@@ -3,7 +3,7 @@ const cloudName = process.env.REACT_APP_CLOUDINARY_CLOUD_NAME || "demo";
 const homePhoto = "v1769192500/IMG_8414_fvin51";
 const imageUrl = `https://res.cloudinary.com/${cloudName}/image/upload/${homePhoto}.jpg`;
 
-const name = "NAME"
+const name = "Dishita"
 
 export default function Home() {
   return (

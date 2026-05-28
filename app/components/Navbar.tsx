@@ -24,7 +24,7 @@ export default function Navbar() {
     >
       <div className="flex items-center max-w-screen-xl mx-auto px-8 sm:px-12 py-3">
         <a href="/" className="italic font-bold text-lg">
-          NAME
+          home
         </a>
 
         <div
