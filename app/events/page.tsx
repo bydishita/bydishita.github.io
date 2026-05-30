@@ -24,15 +24,3 @@ export default function Events() {
     </div>
   );
 }
-// import CloudinaryGallery from "../shared/CloudinaryGallery";
-
-// export default function Events(){
-//   return (
-//     <div className="min-h-screen bg-white flex flex-col items-left pt-32">
-//       <div className="pt-24 w-full flex flex-col items-center">
-//         <h1 className="text-4xl font-semibold mb-8 text-gray-900">Events</h1>
-//         <CloudinaryGallery folder="events" />
-//       </div>
-//     </div>
-//   );
-// }

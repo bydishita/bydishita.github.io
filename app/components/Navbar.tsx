@@ -3,9 +3,9 @@ import { usePathname } from "next/navigation";
 
 const navTabs = [
   { name: "graduation", href: "/graduation" },
-  { name: "events", href: "/events" },
-  { name: "portraits", href: "/portraits" },
-  { name: "more", href: "/more" },
+  // { name: "events", href: "/events" },
+  // { name: "portraits", href: "/portraits" },
+  // { name: "more", href: "/more" },
   { name: "about", href: "/about" },
 ];
 

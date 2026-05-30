@@ -29,7 +29,7 @@ export default function Home() {
                 select-none
               "
               style={{
-                fontSize: "clamp(4rem, 14vw, 12rem)",
+                fontSize: "clamp(4rem, 14vw, 3rem)",
                 textShadow: "0 8px 30px rgba(0, 0, 0, 0.4)",
               }}
             >
@@ -50,7 +50,7 @@ export default function Home() {
               shadow-md
             "
           >
-              Based in Bay Area, CA
+              photographer in the bay area
             </h2>
           </div>
         </div>
