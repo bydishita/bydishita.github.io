@@ -9,7 +9,7 @@ export default function About() {
       <div className="w-full flex flex-col md:flex-row gap-8 items-center md:items-start mb-6">
         
         {/* Profile Image Square */}
-        <div className="w-48 h-48 sm:w-56 sm:h-56 shrink-0 bg-gray-100 rounded-2xl overflow-hidden shadow-sm">
+          <div className="flex-none w-24 h-24 sm:w-56 sm:h-56 max-w-[14rem] max-h-[14rem] mx-auto md:mx-0 bg-gray-100 rounded-2xl overflow-hidden shadow-sm">
           <img 
             src="/headshot.jpg"
             alt="Dishita the Photographer" 
@@ -20,7 +20,7 @@ export default function About() {
         {/* Bio Text Section */}
         <div className="text-gray-700 leading-relaxed space-y-4 text-center md:text-left pt-2 flex-grow">
           <p>
-            Hello! My name is Dishita. I am a UCSC alumna now based in the Bay Area, CA. I've been taking photographs for the past 7 years. 
+            Hello! My name is Dishita. I am a UC Santa Cruz alumna, now based in the Bay Area. I've been taking photographs for the past 7 years. 
             I love shooting portraits, professional headshots, and events, but celebrating college graduates is my favorite. Last grad season, I took over 10,000 photos..
           </p>
           <p className="text-sm text-gray-500 italic">
@@ -34,44 +34,46 @@ export default function About() {
 
         {/* Pricing & Packages Section */}
         <div className="w-full space-y-12">
-          
-          {/* Quick Options */}
+          {/* Standard */}
           <div>
-            <h2 className="text-xl font-bold text-gray-900 mb-2"> Quick Shoots</h2>
+            <h2 className="text-xl font-bold text-gray-900 mb-2"> standard </h2>
             <p className="text-sm text-gray-600 mb-4">
-              Strictly <strong> 35 minutes</strong> at <strong> 1-2 on-campus </strong> locations near each another. I was recently a college student too, so I want to make it possible for as many people to get memorable photos as possible. But, please respect my time!!
+              As many locations as we can fit in the time slot. Happy to run around campus with you! See below for off-campus. 
+            </p>
+            <ul className="list-disc list-inside space-y-2 text-gray-700 bg-gray-50 p-4 rounded-xl">
+              <li><span className="font-semibold text-gray-900"> Solo (1 person):</span> 60 minutes — $110</li>
+              <li><span className="font-semibold text-gray-900"> Duo (2 people):</span> 60 minutes — $180</li>
+              <li><span className="font-semibold text-gray-900"> Trio (3 people):</span> 75 minutes — $250</li>
+              <li><span className="font-semibold text-gray-900"> Squad (4+ people):</span> 90 minutes total— $90 per person</li>
+            </ul>
+          </div>
+
+          {/* Quick */}
+          <div>
+            <h2 className="text-xl font-bold text-gray-900 mb-2"> quick </h2>
+            <p className="text-sm text-gray-600 mb-4">
+              Strictly <strong> 35 minutes</strong> at <strong> 1-2 on-campus </strong> locations near each another. I'm offering this option to make photographs accessible to as many people as possible, hopefully. So, please respect my time!
  
             </p>
             <ul className="list-disc list-inside space-y-2 text-gray-700 bg-gray-50 p-4 rounded-xl">
-              <li><span className="font-semibold text-gray-900">Quick Solo (1 person):</span> $65</li>
-              <li><span className="font-semibold text-gray-900">Quick Duo (2 people):</span> $100</li>
-              <li><span className="font-semibold text-gray-900">Quick Trio (3 people):</span> $150</li>
+              <li><span className="font-semibold text-gray-900">Quick Solo (1 person) —</span> $60</li>
+              <li><span className="font-semibold text-gray-900">Quick Duo (2 people) —</span> $100</li>
+              <li><span className="font-semibold text-gray-900">Quick Trio (3 people) —</span> $150</li>
             </ul>
           </div>
 
-          {/* Standard Options */}
+          {/* Notes */}
           <div>
-            <h2 className="text-xl font-bold text-gray-900 mb-2"> Standard Packages</h2>
-            <p className="text-sm text-gray-600 mb-4">
-              More time, more locations, and a more relaxed pace.
-            </p>
-            <ul className="list-disc list-inside space-y-2 text-gray-700 bg-gray-50 p-4 rounded-xl">
-              <li><span className="font-semibold text-gray-900">Fun Solo (1 person):</span> 60 minutes — $150</li>
-              <li><span className="font-semibold text-gray-900">Fun Duo (2 people):</span> 60 minutes — $200</li>
-              <li><span className="font-semibold text-gray-900">Fun Trio (3 people):</span> 60 minutes — $250</li>
-              <li><span className="font-semibold text-gray-900">Fun Squad (4+ people):</span> 90 minutes — $90 per person</li>
-            </ul>
-          </div>
-
-          {/* Important Details */}
-          <div>
-            <h2 className="text-xl font-bold text-gray-900 mb-3">Key Details</h2>
+            <h2 className="text-xl font-bold text-gray-900 mb-3">details</h2>
             <ul className="list-disc list-inside space-y-3 text-sm text-gray-600 pl-2">
               <li>
-                Additional $15 per person for off-campus (let's chat about carpooling ?).
+                Additional $20 for off-campus.
               </li>
               <li>
-               You will receive photos within 2 weeks. The pricing includes both shoot time and post-processing time. I won't cap the # of photos. I'll share as many great photos as we can capture in our time slot.
+               You will receive photos within 2 weeks. 
+              </li>
+              <li>
+                I don't cap photos shared. I will share as many great photos as we can reasonably capture in our time.
               </li>
               <li>
                 Payment accepted via Venmo, Zelle, or cash shortly after the session concludes.
@@ -83,10 +85,10 @@ export default function About() {
 
           {/* Booking Section */}
           <div className="bg-indigo-50 border border-indigo-100 rounded-2xl p-6 text-center sm:text-left">
-            <h2 className="text-xl font-bold text-indigo-900 mb-2">How to Book</h2>
+            <h2 className="text-xl font-bold text-indigo-900 mb-2">how to book?</h2>
             <p className="text-sm text-indigo-950 mb-4 leading-relaxed">
-              My final available weekend to book in <span className="font-semibold">Santa Cruz, CA is June 5-7, 2026</span>. 
-              Secure your spot using the Calendar link below, then follow up with an email to confirm.
+              My final available weekend to book in Santa Cruz, CA is June 5-7, 2026. Email me for other locations and dates in the Bay Area. 
+              Secure your spot using the Calendar link, then follow up with an email to confirm.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 items-center pt-2">

@@ -27,8 +27,10 @@ export default function RootLayout({
         <link href="/lightbox2/css/lightbox.min.css" rel="stylesheet" />
       </head>
       <body className="bg-white font-sans text-gray-900 min-h-screen">
-        <Navbar />
-        <main>
+        <div className="fixed inset-x-0 top-0 z-50">
+          <Navbar />
+        </div>
+        <main className="main-content">
           {children}
         </main>
         <Script src="/lightbox2/js/lightbox-plus-jquery.min.js"/>
